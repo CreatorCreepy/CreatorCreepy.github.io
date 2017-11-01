@@ -7,7 +7,85 @@
 </a>
 <h1>Lists</h1>
 <hr>
-<p>This is a paragraph.</p>
+<hr>
+<p>Lists can be ordered or unordered.</p>
+<h3>Ordered List:</h3>
+<ul>
+  <li>Apple</li>
+  <li>Banana</li>
+  <li>Cookie</li>
+  <li>Water</li>
+</ul>
+<h3>Unordered List:</h3>
+<ol>
+  <li>Apple</li>
+  <li>Banana</li>
+  <li>Cookie</li>
+  <li>Water</li>
+</ol>
+<p>There can be discriptions about items in a list</p>
+<dl>
+  <dt>Water</dt>
+  <dd>- It's a drink!</dd>
+  <dt>Chicken</dt>
+  <dd>- It's a food!</dd>
+</dl>
+<p>Lists can also be inside another list! :O</p>
+<ul>
+  <li>Item</li>
+  <li>Item
+    <ul>
+    <li>Item in an Item</li>
+    <li>Item in an Item</li>
+      <ul>
+      <li>Item in an Item in an Item</li>
+      <li>Item in an Item in an Item</li>
+      </ul>
+    <li>Item in an Item</li>
+    </ul>
+  </li>
+  <li>Item</li>
+</ul>
+<hr>
+<h3>There can be header lists that look like the top of webpages!</h3>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
 
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#information">information</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+</body>
+<br>
+<hr>
+<p> Lists are awesome! :D</p>
 </body>
 </html>
