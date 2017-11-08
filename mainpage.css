@@ -27,5 +27,30 @@
     color: white;
 }
 .title {
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/86/Man_o%27war_cove_near_lulworth_dorset_arp.jpg");
+    background-image: url("https://entropymag.org/wp-content/uploads/2014/10/outer-space-wallpaper-pictures.jpg"), url("https://yt3.ggpht.com/-9h__y7EqAYM/AAAAAAAAAAI/AAAAAAAAAAA/6lfMhBEVEck/s100-c-k-no-mo-rj-c0xffffff/photo.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 400px;
+}
+.titletext {
+	text-align: center;
+	color: white;
+	line-height: 400px;
+	font-family: verdana;
+	text-transform: capitalize;
+	font-size: 45px;
+}
+.paragraph1 {
+	text-align: center;
+	font-family: helvetica;
+	font-size: 25px;
+	margin: 25px;
+	background-color: lightgray;
+	border-left: 5px solid white;
+	padding-left: 5px;
+	border-right: 5px solid white;
+	padding-right: 5px;
+}
+.body1 {
+	background-color: gray;
 }
