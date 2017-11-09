@@ -86,23 +86,3 @@ th {
     font-size: 17px;
     font-family: verdana;
 }
-/* LINKS :D */
-/* unvisited link */
-a:link {
-    color: darkgreen;
-}
-
-/* visited link */
-a:visited {
-    color: darkgreen;
-}
-
-/* mouse over link */
-a:hover {
-    color: darkgreen;
-}
-
-/* selected link */
-a:active {
-    color: darkgreen;
-}
